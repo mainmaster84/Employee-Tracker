@@ -6,9 +6,9 @@ const consoleTable = require('console.table');
 const connection = mysql.createConnection({
   host: 'localhost',
   // Your MySQL username,
-  user: 'root',
+  user: '',
   // Your MySQL password
-  password: 'Unknown2008',
+  password: '',
   database: 'tracker'
 });
 
